@@ -153,3 +153,5 @@ body:before{opacity:.3;background-image:radial-gradient(rgba(73,56,182,.11) .7px
 .note{background:#eeecfb;border:0;border-left:4px solid var(--brand);box-shadow:none;color:var(--muted)}
 @media(max-width:900px){.nav-links{top:74px;background:var(--paper);border-bottom:1px solid var(--line)}.hero-art{min-height:420px}.process{border-color:rgba(255,255,255,.14)}.step{border-color:rgba(255,255,255,.14)}.price-card.featured{transform:none}}
 @media(max-width:560px){.hero h1,.page-hero h1{font-size:48px}.hero-art{min-height:340px;box-shadow:none}.section{padding:100px 0}.card,.price-card,.founder,.form,.feature-row{box-shadow:none}.cta-band{padding:34px}.page-hero{background:transparent}}
+.pricing.two{grid-template-columns:repeat(2,1fr)}
+@media(max-width:900px){.pricing.two{grid-template-columns:1fr}}
