@@ -1,0 +1,17 @@
+{
+  "name": "AppKeyId",
+  "short_name": "AppKeyId",
+  "description": "Passkey-backed identity proof for trusted digital communication.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f7f4",
+  "theme_color": "#4938b6",
+  "icons": [
+    {
+      "src": "/assets/appkeyid-logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
